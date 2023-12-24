@@ -1,0 +1,33 @@
+@charset "UTF-8";
+.playtype{
+	display: flex;
+  	flex-direction: row;
+  	justify-content: space-around;
+}
+.main_content{
+    margin-top: 50px;
+    margin-left: 10px;
+    height:92lvh;
+    overflow-y: auto;
+    opacity: 0.9;
+}
+.main_content fieldset{
+	width:80lvw;
+	float: center;
+}
+.main_content fieldset legend{
+    /*background-color:#FF9900;*/
+    float: center;
+    text-align: center;
+    box-align: center;
+}
+.main_content::-webkit-scrollbar {
+      display: none;
+    }
+   .main_content fieldset legend span{
+	   /*color: rgb(255, 0,0);*/
+	   font-weight: bold;
+   }
+.makfloa{
+	float: left;
+}

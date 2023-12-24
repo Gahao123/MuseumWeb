@@ -1,0 +1,10 @@
+@charset "UTF-8";
+.astyle{
+	color: #FFA500;
+	text-decoration: none;
+}
+.container{
+	width: 100lvw;
+	display: flex;
+	justify-content: space-around;
+}
